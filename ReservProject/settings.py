@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'radioapp.apps.BackendConfig',
+    'radioapp.apps.RadioappConfig',
     'embed_video',
     'django_summernote',
     'rest_framework',
