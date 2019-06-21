@@ -62,7 +62,7 @@
             },
             getTimer(){
                 $.ajax({
-                    url: "http://127.0.0.1:8000/api/vi/radio/servertime/",
+                    url: "http://176.99.11.247/api/vi/radio/servertime/",
                     type: "GET",
                     success: (response) => {
                         var time_dur = parseInt(response.data, 10);
