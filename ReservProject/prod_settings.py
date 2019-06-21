@@ -8,7 +8,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'radioapp',
-        'USER': 'loku',
+        'USER': 'lokuroku',
         'PASSWORD': '5rrPe4p6XQbZ',
         'HOST': 'localhost',
         'PORT': '5432',
