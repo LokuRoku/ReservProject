@@ -37,14 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'radioapp.apps.RadioappConfig',
+    'backend.apps.BackendConfig',
     'embed_video',
     'django_summernote',
     'rest_framework',
     'rest_framework.authtoken',
     'djoser',
     'radioapp',
-    'start',
+    'backend',
 ]
 
 MIDDLEWARE = [
@@ -80,7 +80,6 @@ EMBED_VIDEO_BACKENDS = (
     'embed_video.backends.YoutubeBackend',
     'embed_video.backends.VimeoBackend',
     'embed_video.backends.SoundCloudBackend',
-    'my_app.backends.CustomBackend',
 )
 
 WSGI_APPLICATION = 'ReservProject.wsgi.application'
