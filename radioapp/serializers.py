@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
-from backend.models import Song, VideoQuery, Choices, ActualSong
+from .models import Song, VideoQuery, Choices, ActualSong
 
 class UserSerializer(serializers.ModelSerializer):
 
