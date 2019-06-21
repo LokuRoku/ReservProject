@@ -32,7 +32,7 @@
         methods:{
             VideoShow(actual){
                 $.ajax({
-                    url: "http://127.0.0.1:8000/api/vi/radio/actualvideo/",
+                    url: "http://176.99.11.247/api/vi/radio/actualvideo/",
                     type: "GET",
                     success: (response) => {
                         var videosrc = response.data.data[0].video.video;

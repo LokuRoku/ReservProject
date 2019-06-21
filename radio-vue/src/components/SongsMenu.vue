@@ -109,7 +109,7 @@
         methods:{
             ShowSong(){
                 $.ajax({
-                    url: "http://127.0.0.1:8000/api/vi/radio/songquery/",
+                    url: "http://176.99.11.247/api/vi/radio/songquery/",
                     type: "GET",
                     success: (response) => {
                         this.songs = response.data.data;
@@ -134,7 +134,7 @@
                     this.songs_list = '';
                 } else {
                     $.ajax({
-                      url: "http://127.0.0.1:8000/api/vi/radio/songs/?letter=" + letter,
+                      url: "http://176.99.11.247/api/vi/radio/songs/?letter=" + letter,
                       type: "GET",
                       success: (response) => {
                         this.songs_list = response.data.data;
@@ -150,7 +150,7 @@
             },
             plusFoSong(song) {
                 $.ajax({
-                    url: "http://127.0.0.1:8000/api/vi/radio/songquery/",
+                    url: "http://176.99.11.247/api/vi/radio/songquery/",
                     type: "POST",
                     data:{
                         song: song.id,
@@ -165,7 +165,7 @@
             },
             addSong(song) {
                   $.ajax({
-                      url: "http://127.0.0.1:8000/api/vi/radio/addsong/",
+                      url: "http://176.99.11.247/api/vi/radio/addsong/",
                       type: "POST",
                       data:{
                           song: song.id,

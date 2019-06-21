@@ -29,7 +29,7 @@
         methods:{
             setLogin(){
                 $.ajax({
-                    url: "http://127.0.0.1:8000/api/vi/radio/createuser/",
+                    url: "http://176.99.11.247/api/vi/radio/createuser/",
                     type: "POST",
                     data:{
                         username: this.login,
